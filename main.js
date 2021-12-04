@@ -13,7 +13,7 @@ const renderer = new THREE.WebGLRenderer({
 
 renderer.setPixelRatio(window.devicePixelRatio);
 renderer.setSize(window.innerWidth, window.innerHeight);
-camera.position.setZ(30);
+camera.position.setZ(40);
 camera.position.setX(-3);
 
 renderer.render(scene, camera);
@@ -46,7 +46,7 @@ scene.add(pointLight, ambientLight);
 
 // Background
 
-const spaceTexture = new THREE.TextureLoader().load('https://res.cloudinary.com/dveuedvvm/image/upload/v1638555921/main-qimg-c00569a5e999e376736f48e88de04b01-pjlq_e6oczn.jpg');
+const spaceTexture = new THREE.TextureLoader().load('https://res.cloudinary.com/dveuedvvm/image/upload/v1638576611/5506705_hmlwvw.jpg');
 scene.background = spaceTexture;
 
 // Avatar
