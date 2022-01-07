@@ -79,3 +79,8 @@ canvas {
   .left {
     grid-column: 6 / 12;
   }
+
+  .imgR{
+    height:400px;
+    width: 600px;
+  }
